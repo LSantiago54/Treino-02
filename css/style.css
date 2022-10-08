@@ -1,6 +1,6 @@
 body{
     width: 1440px;
-    height: 100vh;
+    height: 900px;
     background-color: hsl(30, 38%, 92%);
 }
 p{
@@ -45,7 +45,12 @@ h1{
     margin-bottom: 25px;
 }
 
+#texto{
+    height: 39px;
+    box-sizing: border-box;
+}
 #textG{
+    float: left;
     font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
     font-size: 32px;
@@ -54,16 +59,37 @@ h1{
 #textP{
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
+    text-decoration:line-through;
+    float: left;
+    display: block;
     font-size: 13px;
-    margin-left: 16px;
-    text-decoration:line-through
+    margin-left: 19px;
+    line-height: 39px;
+    font-weight: 500;
+    margin-bottom: 25px;
 }
-
-
+button{
+    padding: 15px;
+    width: 230px;
+    background-color: hsl(158, 36%, 37%) ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    box-sizing: border-box;
+}
+#textB{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 16px;
+    
+}
+#icon{
+    
+}
 img{
    height: 100%;
    float: left;
-   margin-right: 31px;
+   margin-right: 32px;
    
 }
 
