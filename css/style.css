@@ -1,0 +1,80 @@
+body{
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+p{
+    margin:0;
+    padding: 0
+}
+#conteiner{
+    width: 600px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
+#mark{
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-top: 32px;
+    letter-spacing: 5px;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    line-height: 32px;
+    color:hsl(212, 21%, 14%);
+    margin-bottom: 24px;
+}
+
+#text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 25px;
+}
+
+#textG{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+}
+
+#textP{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    margin-left: 16px;
+    text-decoration:line-through
+}
+
+
+img{
+   height: 100%;
+   float: left;
+   margin-right: 31px;
+   
+}
+
+
+test{
+    - verde: hsl(158, 36%, 37%)
+    - Cream: hsl(30, 38%, 92%)
+    
+    ### Neutral
+    
+    - Very dark blue: hsl(212, 21%, 14%)
+    - Dark grayish blue: hsl(228, 12%, 48%)
+    - White: hsl(0, 0%, 100%)
+}
